@@ -1,0 +1,10 @@
+[Flatpak Ref]
+Title=Kashot
+Name=org.kashot.Kashot
+Branch=master
+Url=https://repo.kashot.org/repo/
+SuggestRemoteName=kashot
+Homepage=https://kashot.org
+Icon=https://kashot.org/assets/kashot-256.png
+RuntimeRepo=https://flathub.org/repo/flathub.flatpakrepo
+IsRuntime=false

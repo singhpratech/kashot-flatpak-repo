@@ -1,0 +1,9 @@
+[Flatpak Repo]
+Title=Kashot
+Url=https://repo.kashot.org/repo/
+Homepage=https://kashot.org
+Comment=Self-hosted Flatpak repo for Kashot
+Description=Install Kashot (screenshot + recorder + format converter) on every Linux distro that ships Flatpak, without enabling Flathub.
+Icon=https://kashot.org/assets/kashot-256.png
+DefaultBranch=master
+GPGKey=
