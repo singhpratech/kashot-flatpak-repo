@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kashot Flatpak repo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Install Kashot on Linux via Flatpak, hosted directly by the upstream maintainer.">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter, sans-serif;
+         max-width: 720px; margin: 5vh auto; padding: 0 6vw; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2em; }
+  p.tag { color: #777; margin-top: 0; }
+  pre { background: #1115; padding: 12px 14px; border-radius: 6px; overflow-x: auto;
+        font: 14px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  a { color: #4a8bf5; }
+  footer { color: #777; font-size: 0.9rem; margin-top: 4em; }
+</style>
+</head>
+<body>
+<h1>Kashot — Flatpak repo</h1>
+<p class="tag">Fast screenshots with annotations — installable on every Linux distro that ships Flatpak, without Flathub.</p>
+
+<p>Add the remote and install:</p>
+<pre>flatpak remote-add --if-not-exists kashot https://repo.kashot.org/kashot.flatpakrepo
+flatpak install kashot org.kashot.Kashot
+flatpak run org.kashot.Kashot</pre>
+
+<p>Or grab the single-click <code>.flatpakref</code>:</p>
+<pre>flatpak install https://repo.kashot.org/org.kashot.Kashot.flatpakref</pre>
+
+<p>Updates land here automatically on each tagged release of <a href="https://github.com/singhpratech/kashot">singhpratech/kashot</a>. Run <code>flatpak update</code> to pick them up.</p>
+
+<p><a href="https://kashot.org">← back to kashot.org</a></p>
+
+<footer>Apache-2.0 · maintained by <a href="https://github.com/singhpratech">singhpratech</a></footer>
+</body>
+</html>
